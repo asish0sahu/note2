@@ -1,7 +1,8 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteNote, openModal, editNote } from "./store/notesSlice";
+import { deleteNote, openModal, editNote } from "../store/notesSlice";
 import { FaEdit, FaTrash } from "react-icons/fa";
+import "./note.css";
 
 const Note = ({ note }) => {
   const dispatch = useDispatch();
